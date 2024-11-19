@@ -1,7 +1,4 @@
-
-/* Your CSS Code here. */
-
-
+/* General table styles */
 table {
     border: 1px solid black;
     border-collapse: collapse;
@@ -15,8 +12,14 @@ th, td {
     text-align: left;
 }
 
-
+/* Special styling for black background cell */
 td.black-background {
     background-color: black;
     color: white;
+}
+
+/* List styling inside Nested Table 3 */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
