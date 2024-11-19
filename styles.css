@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+/* Table header and data cell styling */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+
+td.black-background {
+    background-color: black;
+    color: white;
+}
